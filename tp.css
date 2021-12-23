@@ -1,0 +1,40 @@
+body{
+    background: radial-gradient(circle at center, #CCDAE0, #EDF2F4);
+}
+header{
+    text-align: center;
+}
+h1{
+    color: #EF233C;
+    font: 1.5em bold impact;
+}
+h3{
+    color: #2B2D42;
+    font-size: 1.3em;
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+}
+article{
+    border: 1px solid black;
+}
+.centre{
+    text-align: center;
+    margin: 0%;
+    border: 2px solid #8D99AE;
+}
+footer{
+    text-align: right;
+}
+ul{
+    list-style-type: none;
+}
+a:visited{
+    color:gray
+}
+a:link{
+    color:#D90429;
+}
+a:hover{
+    color:#2B2D42;
+}
