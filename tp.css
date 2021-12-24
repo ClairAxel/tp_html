@@ -1,5 +1,5 @@
 body{
-    background: radial-gradient(circle at center, #CCDAE0, #EDF2F4);
+    background: radial-gradient(circle at top, #CCDAE0, #EDF2F4);
 }
 header{
     text-align: center;
@@ -19,9 +19,9 @@ article{
     border: 1px solid black;
 }
 .centre{
-    text-align: center;
-    margin: 0%;
+    margin-left: 54em;
     border: 2px solid #8D99AE;
+    border-image-outset: 0;
 }
 footer{
     text-align: right;
@@ -29,12 +29,15 @@ footer{
 ul{
     list-style-type: none;
 }
-a:visited{
-    color:gray
-}
 a:link{
     color:#D90429;
 }
+a:visited{
+    color:gray;
+}
 a:hover{
     color:#2B2D42;
+}
+.required{
+    color: red;
 }
